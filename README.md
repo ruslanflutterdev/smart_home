@@ -1,16 +1,16 @@
-# smart_home
+# Умный дом (Smart Home) — Flutter-приложение
 
-A new Flutter project.
+Это простое Flutter-приложение, реализующее интерфейс для управления устройствами "умного дома". 
+Приложение позволяет отображать устройства на главном экране, редактировать их и просматривать полный список устройств.
 
-## Getting Started
+## 🚀 Возможности
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Главный экран с 4 карточками устройств:
+  - Свет
+  - Замок
+  - Кондиционер
+  - Температурный датчик
+- Экран редактирования устройств
+- Отдельный экран со списком всех устройств
+- Использование Provider для управления состоянием
+- Гибкая модель устройства с поддержкой имени, типа и статуса
